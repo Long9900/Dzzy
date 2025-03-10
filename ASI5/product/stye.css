@@ -1,0 +1,39 @@
+:root{
+    --primary-color: #ff0000;
+    --primary-color: #ffa500;
+    --primary-color: #6a5acd;
+}
+ 
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(79, 79, 79);
+}
+.menu-bar{
+    width: 100%;
+    background-color: rgb(91, 94, 241);
+    margin-top: 20px;
+}
+.menu-bar ul{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-align: center;
+}
+.menu-bar ul li{
+    display: inline-block;
+}
+.menu-bar ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    transition: all 0.5 linear;
+    font-size: 15px;
+}
+.menu-bar ul li:hover a{
+    font-size: 19px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(108, 60, 60);
+}
